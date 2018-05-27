@@ -28,6 +28,7 @@ Public Class FrSearch
         Jabatan
         Divisi
         Jenis_Pembiayaan
+        BAUK
     End Enum
 
     Private Sub FrSearch_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -41,6 +42,9 @@ Public Class FrSearch
             If (Category = SearchCategories.Penyelenggara) Then
                 Dim SPenyelenggara As New SrcPenyelenggara(Me)
                 SPenyelenggara.SearchPenyelenggara()
+            ElseIf (Category = SearchCategories.BAUK) Then
+                Dim SBAUK As New SrcBAUK(Me)
+                SBAUK.SearchBAUK()
             End If
         End If
     End Sub
@@ -50,8 +54,13 @@ Public Class FrSearch
         If (SelectedIndex = e.RowIndex) Then
             If (FrParent.GetType().Equals(GetType(FrEntriBeritaAcaraUndanganKegiatan))) Then
                 Dim FrBAUK As FrEntriBeritaAcaraUndanganKegiatan = FrParent
-                FrBAUK.SetSelectedKode(row.Cells("Kode Penyelenggara").Value.ToString())
-                FrBAUK.CtrlBAUK.CariPenyelenggara()
+                If (Category = SearchCategories.Penyelenggara) Then
+                    FrBAUK.SetSelectedKode(row.Cells("Kode Penyelenggara").Value.ToString())
+                    FrBAUK.CtrlBAUK.CariPenyelenggara(FrBAUK.GetSelectedKode)
+                ElseIf (Category = SearchCategories.BAUK) Then
+                    FrBAUK.SetSelectedKode(row.Cells("No. BAUK").Value.ToString())
+                    FrBAUK.CtrlBAUK.CariBAUK(FrBAUK.GetSelectedKode)
+                End If
                 Me.Close()
             End If
         End If

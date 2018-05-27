@@ -70,6 +70,7 @@
     <Compile Include="Classes\CtrlBeritaAcaraUndanganKegiatan.vb" />
     <Compile Include="Classes\CtrlForm.vb" />
     <Compile Include="Classes\DatabaseModule.vb" />
+    <Compile Include="Classes\SrcBAUK.vb" />
     <Compile Include="Classes\SrcPenyelenggara.vb" />
     <Compile Include="Forms\FrMain.Designer.vb">
       <DependentUpon>FrMain.vb</DependentUpon>
