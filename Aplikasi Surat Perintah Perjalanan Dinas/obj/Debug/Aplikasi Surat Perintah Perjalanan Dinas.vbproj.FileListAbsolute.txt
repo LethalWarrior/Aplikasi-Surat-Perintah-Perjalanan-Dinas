@@ -1,0 +1,18 @@
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\bin\Debug\Aplikasi Surat Perintah Perjalanan Dinas.exe
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\bin\Debug\Aplikasi Surat Perintah Perjalanan Dinas.pdb
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\bin\Debug\Aplikasi Surat Perintah Perjalanan Dinas.xml
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrMain.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriDataGolongan.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.Resources.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi Surat Perintah Perjalanan Dinas.vbproj.GenerateResource.Cache
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi Surat Perintah Perjalanan Dinas.exe
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi Surat Perintah Perjalanan Dinas.xml
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi Surat Perintah Perjalanan Dinas.pdb
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriDataJabatan.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriDataPegawai.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriDataPenyelenggara.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriDivisi.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriJenisPembiayaan.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriBeritaAcaraUndanganKegiatan.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrSearch.resources

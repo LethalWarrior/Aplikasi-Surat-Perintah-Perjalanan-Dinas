@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1E9D689E-F193-4C0E-B9D3-DFBF44D2F7E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Aplikasi_Surat_Perintah_Perjalanan_Dinas.My.MyApplication</StartupObject>
+    <RootNamespace>Aplikasi_Surat_Perintah_Perjalanan_Dinas</RootNamespace>
+    <AssemblyName>Aplikasi Surat Perintah Perjalanan Dinas</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Aplikasi Surat Perintah Perjalanan Dinas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Aplikasi Surat Perintah Perjalanan Dinas.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=5.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\CtrlBeritaAcaraUndanganKegiatan.vb" />
+    <Compile Include="Classes\CtrlForm.vb" />
+    <Compile Include="Classes\DatabaseModule.vb" />
+    <Compile Include="Classes\SrcPenyelenggara.vb" />
+    <Compile Include="Forms\FrMain.Designer.vb">
+      <DependentUpon>FrMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FrSearch.designer.vb">
+      <DependentUpon>FrSearch.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FrSearch.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataGolongan.Designer.vb">
+      <DependentUpon>FrEntriDataGolongan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataGolongan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataJabatan.Designer.vb">
+      <DependentUpon>FrEntriDataJabatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataJabatan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataPegawai.designer.vb">
+      <DependentUpon>FrEntriDataPegawai.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataPegawai.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataPenyelenggara.Designer.vb">
+      <DependentUpon>FrEntriDataPenyelenggara.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDataPenyelenggara.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDivisi.designer.vb">
+      <DependentUpon>FrEntriDivisi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriDivisi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriJenisPembiayaan.Designer.vb">
+      <DependentUpon>FrEntriJenisPembiayaan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Master\FrEntriJenisPembiayaan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transaction\FrEntriBeritaAcaraUndanganKegiatan.Designer.vb">
+      <DependentUpon>FrEntriBeritaAcaraUndanganKegiatan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transaction\FrEntriBeritaAcaraUndanganKegiatan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Forms\FrMain.resx">
+      <DependentUpon>FrMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FrSearch.resx">
+      <DependentUpon>FrSearch.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriDataGolongan.resx">
+      <DependentUpon>FrEntriDataGolongan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriDataJabatan.resx">
+      <DependentUpon>FrEntriDataJabatan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriDataPegawai.resx">
+      <DependentUpon>FrEntriDataPegawai.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriDataPenyelenggara.resx">
+      <DependentUpon>FrEntriDataPenyelenggara.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriDivisi.resx">
+      <DependentUpon>FrEntriDivisi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Master\FrEntriJenisPembiayaan.resx">
+      <DependentUpon>FrEntriJenisPembiayaan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transaction\FrEntriBeritaAcaraUndanganKegiatan.resx">
+      <DependentUpon>FrEntriBeritaAcaraUndanganKegiatan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Forms\Report\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
