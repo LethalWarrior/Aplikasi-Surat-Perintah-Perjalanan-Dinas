@@ -147,7 +147,6 @@ Partial Class FrEntriDataPegawai
         Me.TbxKodePegawai.Name = "TbxKodePegawai"
         Me.TbxKodePegawai.Size = New System.Drawing.Size(145, 22)
         Me.TbxKodePegawai.TabIndex = 16
-        Me.TbxKodePegawai.Text = "PXXXX"
         '
         'Label2
         '
@@ -179,7 +178,6 @@ Partial Class FrEntriDataPegawai
         Me.CbxJabatan.Name = "CbxJabatan"
         Me.CbxJabatan.Size = New System.Drawing.Size(206, 24)
         Me.CbxJabatan.TabIndex = 22
-        Me.CbxJabatan.Text = "JXXXX - NamaJabatan"
         '
         'CbxDivisi
         '
@@ -190,7 +188,6 @@ Partial Class FrEntriDataPegawai
         Me.CbxDivisi.Name = "CbxDivisi"
         Me.CbxDivisi.Size = New System.Drawing.Size(206, 24)
         Me.CbxDivisi.TabIndex = 23
-        Me.CbxDivisi.Text = "DXXXX - NamaDivisi"
         '
         'CbxGol
         '
@@ -201,7 +198,6 @@ Partial Class FrEntriDataPegawai
         Me.CbxGol.Name = "CbxGol"
         Me.CbxGol.Size = New System.Drawing.Size(206, 24)
         Me.CbxGol.TabIndex = 24
-        Me.CbxGol.Text = "GXXXX - NamaGolongan"
         '
         'Label9
         '

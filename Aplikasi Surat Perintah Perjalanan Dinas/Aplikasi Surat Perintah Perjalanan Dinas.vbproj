@@ -68,8 +68,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\CtrlBeritaAcaraUndanganKegiatan.vb" />
+    <Compile Include="Classes\CtrlDivisi.vb" />
     <Compile Include="Classes\CtrlForm.vb" />
+    <Compile Include="Classes\CtrlGolongan.vb" />
+    <Compile Include="Classes\CtrlJabatan.vb" />
+    <Compile Include="Classes\CtrlJenis_Pembiayaan.vb" />
+    <Compile Include="Classes\CtrlPegawai.vb" />
+    <Compile Include="Classes\CtrlPenyelenggara.vb" />
     <Compile Include="Classes\DatabaseModule.vb" />
+    <Compile Include="Classes\SrcDivisi.vb" />
+    <Compile Include="Classes\SrcGolongan.vb" />
+    <Compile Include="Classes\SrcJabatan.vb" />
+    <Compile Include="Classes\SrcJenis_Pembiayaan.vb" />
+    <Compile Include="Classes\SrcPegawai.vb" />
     <Compile Include="Classes\SrcPenyelenggara.vb" />
     <Compile Include="Forms\FrMain.Designer.vb">
       <DependentUpon>FrMain.vb</DependentUpon>
@@ -144,30 +155,39 @@
   <ItemGroup>
     <EmbeddedResource Include="Forms\FrMain.resx">
       <DependentUpon>FrMain.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrSearch.resx">
       <DependentUpon>FrSearch.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Master\FrEntriDataGolongan.resx">
       <DependentUpon>FrEntriDataGolongan.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Master\FrEntriDataJabatan.resx">
       <DependentUpon>FrEntriDataJabatan.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Master\FrEntriDataPegawai.resx">
       <DependentUpon>FrEntriDataPegawai.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Master\FrEntriDataPenyelenggara.resx">
       <DependentUpon>FrEntriDataPenyelenggara.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Master\FrEntriDivisi.resx">
       <DependentUpon>FrEntriDivisi.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Master\FrEntriJenisPembiayaan.resx">
       <DependentUpon>FrEntriJenisPembiayaan.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Transaction\FrEntriBeritaAcaraUndanganKegiatan.resx">
       <DependentUpon>FrEntriBeritaAcaraUndanganKegiatan.vb</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

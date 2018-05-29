@@ -134,7 +134,6 @@ Partial Class FrEntriDivisi
         Me.TbxKodeDivisi.Name = "TbxKodeDivisi"
         Me.TbxKodeDivisi.Size = New System.Drawing.Size(145, 22)
         Me.TbxKodeDivisi.TabIndex = 45
-        Me.TbxKodeDivisi.Text = "DXXXX"
         '
         'Label2
         '
