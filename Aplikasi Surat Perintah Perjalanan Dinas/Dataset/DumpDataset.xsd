@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DumpDataset" targetNamespace="http://tempuri.org/DumpDataset.xsd" xmlns:mstns="http://tempuri.org/DumpDataset.xsd" xmlns="http://tempuri.org/DumpDataset.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="db_sppdConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="db_sppdConnectionString (MySettings)" PropertyReference="ApplicationSettings.Aplikasi_Surat_Perintah_Perjalanan_Dinas.My.MySettings.GlobalReference.Default.db_sppdConnectionString" Provider="Devart.Data.MySql" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="DtCetakSTPegawaiTableAdapter" GeneratorDataComponentClassName="DtCetakSTPegawaiTableAdapter" Name="DtCetakSTPegawai" UserDataComponentName="DtCetakSTPegawaiTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="db_sppdConnectionString (MySettings)" DbObjectType="Unknown" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT pegawai.nama, jabatan.nm_jab FROM detail_surat_tugas JOIN pegawai ON detail_surat_tugas.kd_pegawai = pegawai.kd_pegawai JOIN jabatan ON pegawai.kd_jab = jabatan.kd_jab </CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="nama" DataSetColumn="nama" />
+              <Mapping SourceColumn="nm_jab" DataSetColumn="nm_jab" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DumpDataset" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="DumpDataset" msprop:Generator_UserDSName="DumpDataset" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DtSuratTugasFields" msprop:Generator_UserTableName="DtSuratTugasFields" msprop:Generator_RowDeletedName="DtSuratTugasFieldsRowDeleted" msprop:Generator_TableClassName="DtSuratTugasFieldsDataTable" msprop:Generator_RowChangedName="DtSuratTugasFieldsRowChanged" msprop:Generator_RowClassName="DtSuratTugasFieldsRow" msprop:Generator_RowChangingName="DtSuratTugasFieldsRowChanging" msprop:Generator_RowEvArgName="DtSuratTugasFieldsRowChangeEvent" msprop:Generator_RowEvHandlerName="DtSuratTugasFieldsRowChangeEventHandler" msprop:Generator_TablePropName="DtSuratTugasFields" msprop:Generator_TableVarName="tableDtSuratTugasFields" msprop:Generator_RowDeletingName="DtSuratTugasFieldsRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nomor_surat" msprop:Generator_UserColumnName="nomor_surat" msprop:Generator_ColumnPropNameInRow="nomor_surat" msprop:Generator_ColumnVarNameInTable="columnnomor_surat" msprop:Generator_ColumnPropNameInTable="nomor_suratColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="divisi" msprop:Generator_UserColumnName="divisi" msprop:Generator_ColumnPropNameInRow="divisi" msprop:Generator_ColumnVarNameInTable="columndivisi" msprop:Generator_ColumnPropNameInTable="divisiColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="paragraf_awal" msprop:Generator_UserColumnName="paragraf_awal" msprop:Generator_ColumnPropNameInRow="paragraf_awal" msprop:Generator_ColumnVarNameInTable="columnparagraf_awal" msprop:Generator_ColumnPropNameInTable="paragraf_awalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="paragraf_akhir" msprop:Generator_UserColumnName="paragraf_akhir" msprop:Generator_ColumnPropNameInRow="paragraf_akhir" msprop:Generator_ColumnVarNameInTable="columnparagraf_akhir" msprop:Generator_ColumnPropNameInTable="paragraf_akhirColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="hari_tanggal" msprop:Generator_UserColumnName="hari_tanggal" msprop:Generator_ColumnPropNameInRow="hari_tanggal" msprop:Generator_ColumnVarNameInTable="columnhari_tanggal" msprop:Generator_ColumnPropNameInTable="hari_tanggalColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="waktu" msprop:Generator_UserColumnName="waktu" msprop:Generator_ColumnPropNameInRow="waktu" msprop:Generator_ColumnVarNameInTable="columnwaktu" msprop:Generator_ColumnPropNameInTable="waktuColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="tempat" msprop:Generator_UserColumnName="tempat" msprop:Generator_ColumnPropNameInRow="tempat" msprop:Generator_ColumnVarNameInTable="columntempat" msprop:Generator_ColumnPropNameInTable="tempatColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DtCetakSTPegawai" msprop:Generator_UserTableName="DtCetakSTPegawai" msprop:Generator_RowDeletedName="DtCetakSTPegawaiRowDeleted" msprop:Generator_TableClassName="DtCetakSTPegawaiDataTable" msprop:Generator_RowChangedName="DtCetakSTPegawaiRowChanged" msprop:Generator_RowClassName="DtCetakSTPegawaiRow" msprop:Generator_RowChangingName="DtCetakSTPegawaiRowChanging" msprop:Generator_RowEvArgName="DtCetakSTPegawaiRowChangeEvent" msprop:Generator_RowEvHandlerName="DtCetakSTPegawaiRowChangeEventHandler" msprop:Generator_TablePropName="DtCetakSTPegawai" msprop:Generator_TableVarName="tableDtCetakSTPegawai" msprop:Generator_RowDeletingName="DtCetakSTPegawaiRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nama" msprop:Generator_UserColumnName="nama" msprop:Generator_ColumnPropNameInRow="nama" msprop:Generator_ColumnVarNameInTable="columnnama" msprop:Generator_ColumnPropNameInTable="namaColumn" type="xs:string" />
+              <xs:element name="nm_jab" msprop:Generator_UserColumnName="nm_jab" msprop:Generator_ColumnPropNameInRow="nm_jab" msprop:Generator_ColumnVarNameInTable="columnnm_jab" msprop:Generator_ColumnPropNameInTable="nm_jabColumn" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

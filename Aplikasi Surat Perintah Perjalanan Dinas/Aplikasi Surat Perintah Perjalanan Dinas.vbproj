@@ -37,11 +37,23 @@
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Devart.Data, Version=5.0.1853.0, Culture=neutral, PublicKeyToken=09af7300eec23701" />
+    <Reference Include="Devart.Data.MySql, Version=8.10.1061.0, Culture=neutral, PublicKeyToken=09af7300eec23701" />
     <Reference Include="MySql.Data, Version=5.2.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core">
@@ -67,11 +79,36 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Classes\CtrlSuratDinas.vb" />
     <Compile Include="Classes\CtrlBeritaAcaraUndanganKegiatan.vb" />
     <Compile Include="Classes\CtrlForm.vb" />
+    <Compile Include="Classes\CtrlSuratTugas.vb" />
     <Compile Include="Classes\DatabaseModule.vb" />
+    <Compile Include="Classes\Model\Pegawai.vb" />
     <Compile Include="Classes\SrcBAUK.vb" />
+    <Compile Include="Classes\SrcPegawaiEven.vb" />
     <Compile Include="Classes\SrcPenyelenggara.vb" />
+    <Compile Include="Classes\SrcSuratTugas.vb" />
+    <Compile Include="Crystal Report\CrSuratDinas1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrSuratDinas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Crystal Report\CrSuratTugas.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrSuratTugas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Dataset\DumpDataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DumpDataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dataset\DumpDataset.vb">
+      <DependentUpon>DumpDataset.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Forms\FrMain.Designer.vb">
       <DependentUpon>FrMain.vb</DependentUpon>
     </Compile>
@@ -120,6 +157,24 @@
     <Compile Include="Forms\Master\FrEntriJenisPembiayaan.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Report\FrPrint.Designer.vb">
+      <DependentUpon>FrPrint.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Report\FrPrint.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transaction\FrCetakSuratDinas.Designer.vb">
+      <DependentUpon>FrCetakSuratDinas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transaction\FrCetakSuratDinas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Transaction\FrCetakSuratTugas.Designer.vb">
+      <DependentUpon>FrCetakSuratTugas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Transaction\FrCetakSuratTugas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Forms\Transaction\FrEntriBeritaAcaraUndanganKegiatan.Designer.vb">
       <DependentUpon>FrEntriBeritaAcaraUndanganKegiatan.vb</DependentUpon>
     </Compile>
@@ -143,6 +198,14 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Crystal Report\CrSuratDinas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrSuratDinas1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Crystal Report\CrSuratTugas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrSuratTugas.vb</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\FrMain.resx">
       <DependentUpon>FrMain.vb</DependentUpon>
     </EmbeddedResource>
@@ -167,6 +230,15 @@
     <EmbeddedResource Include="Forms\Master\FrEntriJenisPembiayaan.resx">
       <DependentUpon>FrEntriJenisPembiayaan.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Report\FrPrint.resx">
+      <DependentUpon>FrPrint.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transaction\FrCetakSuratDinas.resx">
+      <DependentUpon>FrCetakSuratDinas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Transaction\FrCetakSuratTugas.resx">
+      <DependentUpon>FrCetakSuratTugas.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\Transaction\FrEntriBeritaAcaraUndanganKegiatan.resx">
       <DependentUpon>FrEntriBeritaAcaraUndanganKegiatan.vb</DependentUpon>
     </EmbeddedResource>
@@ -178,6 +250,18 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Dataset\DumpDataset.xsc">
+      <DependentUpon>DumpDataset.xsd</DependentUpon>
+    </None>
+    <None Include="Dataset\DumpDataset.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DumpDataset.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="Dataset\DumpDataset.xss">
+      <DependentUpon>DumpDataset.xsd</DependentUpon>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -189,7 +273,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Forms\Report\" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
