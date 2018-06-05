@@ -28,4 +28,20 @@
     Private Sub KeluarToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles KeluarToolStripMenuItem.Click
         Application.Exit()
     End Sub
+
+    Private Sub CetakSuratTugasToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CetakSuratTugasToolStripMenuItem.Click
+        If (IsSlaveOpened = False) Then
+            Dim FrCetakST = New FrCetakSuratTugas(Me)
+            FrCetakST.Show()
+            SetSlaveOpened(True)
+        End If
+    End Sub
+
+    Private Sub CetakSuratDinasToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CetakSuratDinasToolStripMenuItem.Click
+        If (IsSlaveOpened = False) Then
+            Dim FrCetakSD = New FrCetakSuratDinas(Me)
+            FrCetakSD.Show()
+            SetSlaveOpened(True)
+        End If
+    End Sub
 End Class
