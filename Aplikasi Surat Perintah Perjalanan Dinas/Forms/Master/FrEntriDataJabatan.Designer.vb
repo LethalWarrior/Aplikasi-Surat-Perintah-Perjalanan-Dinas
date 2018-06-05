@@ -134,7 +134,6 @@ Partial Class FrEntriDataJabatan
         Me.TbxKodeJabatan.Name = "TbxKodeJabatan"
         Me.TbxKodeJabatan.Size = New System.Drawing.Size(145, 22)
         Me.TbxKodeJabatan.TabIndex = 35
-        Me.TbxKodeJabatan.Text = "JXXXX"
         '
         'Label2
         '

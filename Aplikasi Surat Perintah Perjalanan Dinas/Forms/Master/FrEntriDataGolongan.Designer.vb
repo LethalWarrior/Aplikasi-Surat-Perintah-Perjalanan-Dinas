@@ -66,7 +66,6 @@ Partial Class FrEntriDataGolongan
         Me.TbxKodeGolongan.Name = "TbxKodeGolongan"
         Me.TbxKodeGolongan.Size = New System.Drawing.Size(145, 22)
         Me.TbxKodeGolongan.TabIndex = 20
-        Me.TbxKodeGolongan.Text = "GXXXX"
         '
         'Label2
         '

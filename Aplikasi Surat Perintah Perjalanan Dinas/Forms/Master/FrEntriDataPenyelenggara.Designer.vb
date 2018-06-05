@@ -179,7 +179,6 @@ Partial Class FrEntriDataPenyelenggara
         Me.TbxKodePenyelenggara.Name = "TbxKodePenyelenggara"
         Me.TbxKodePenyelenggara.Size = New System.Drawing.Size(145, 22)
         Me.TbxKodePenyelenggara.TabIndex = 40
-        Me.TbxKodePenyelenggara.Text = "PYXXXX"
         '
         'Label2
         '

@@ -16,7 +16,28 @@ C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Per
 C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriJenisPembiayaan.resources
 C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriBeritaAcaraUndanganKegiatan.resources
 C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrSearch.resources
+<<<<<<< HEAD
 C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrCetakSuratTugas.resources
 C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\bin\Debug\Aplikasi Surat Perintah Perjalanan Dinas.exe.config
 C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrPrint.resources
 C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrCetakSuratDinas.resources
+=======
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi Surat Perintah Perjalanan Dinas.exe
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi Surat Perintah Perjalanan Dinas.xml
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi Surat Perintah Perjalanan Dinas.pdb
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\bin\Debug\Aplikasi Surat Perintah Perjalanan Dinas.exe
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\bin\Debug\Aplikasi Surat Perintah Perjalanan Dinas.pdb
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\bin\Debug\Aplikasi Surat Perintah Perjalanan Dinas.xml
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrMain.resources
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrSearch.resources
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriDataGolongan.resources
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriDataJabatan.resources
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriDataPegawai.resources
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriDataPenyelenggara.resources
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriDivisi.resources
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriJenisPembiayaan.resources
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrEntriBeritaAcaraUndanganKegiatan.resources
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi_Surat_Perintah_Perjalanan_Dinas.Resources.resources
+C:\Users\Ikhsan\Desktop\Projek\Aplikasi Surat Perintah Perjalanan Dinas\obj\Debug\Aplikasi Surat Perintah Perjalanan Dinas.vbproj.GenerateResource.Cache
+>>>>>>> icn_master

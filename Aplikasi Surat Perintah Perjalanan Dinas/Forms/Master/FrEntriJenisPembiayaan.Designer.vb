@@ -134,7 +134,6 @@ Partial Class FrEntriJenisPembiayaan
         Me.TbxKodeJPembiayaan.Name = "TbxKodeJPembiayaan"
         Me.TbxKodeJPembiayaan.Size = New System.Drawing.Size(191, 22)
         Me.TbxKodeJPembiayaan.TabIndex = 45
-        Me.TbxKodeJPembiayaan.Text = "JXXXX"
         '
         'Label2
         '

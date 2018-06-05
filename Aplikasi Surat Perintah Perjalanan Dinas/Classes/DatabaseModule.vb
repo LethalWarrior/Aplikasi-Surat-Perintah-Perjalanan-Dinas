@@ -10,7 +10,7 @@ Module DatabaseModule
     Private Ctrl As New CtrlForm
 
     Public Sub OpenConnection()
-        Conn = New MySqlConnection("server=localhost; userid=root; database=db_sppd")
+        Conn = New MySqlConnection("server=localhost; userid=root; database=sppdinas")
         Try
             Conn.Open()
         Catch ex As Exception
