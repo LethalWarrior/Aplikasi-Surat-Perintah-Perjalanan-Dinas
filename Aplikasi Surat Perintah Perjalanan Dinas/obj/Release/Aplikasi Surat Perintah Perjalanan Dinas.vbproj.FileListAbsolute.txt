@@ -17,3 +17,6 @@ C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Per
 C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Release\Aplikasi Surat Perintah Perjalanan Dinas.exe
 C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Release\Aplikasi Surat Perintah Perjalanan Dinas.xml
 C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Release\Aplikasi Surat Perintah Perjalanan Dinas.pdb
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\bin\Release\Aplikasi Surat Perintah Perjalanan Dinas.exe.config
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Release\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrPrint.resources
+C:\Users\robby\Documents\Visual Studio 2008\Projects\Aplikasi Surat Perintah Perjalanan Dinas\Aplikasi Surat Perintah Perjalanan Dinas\obj\Release\Aplikasi_Surat_Perintah_Perjalanan_Dinas.FrCetakSuratDinas.resources

@@ -43,9 +43,6 @@ Public Class FrSearch
             If (Category = SearchCategories.Divisi) Then
                 Dim SDivisi As New SrcDivisi(Me)
                 SDivisi.Searchdivisi()
-            ElseIf (Category = SearchCategories.Pegawai) Then
-                Dim SPegawai As New SrcPegawai(Me)
-                SPegawai.Searchpegawai()
             ElseIf (Category = SearchCategories.Golongan) Then
                 Dim SGolongan As New SrcGolongan(Me)
                 SGolongan.Searchgolongan()
@@ -62,14 +59,19 @@ Public Class FrSearch
                 Dim SBAUK As New SrcBAUK(Me)
                 SBAUK.SearchBAUK()
             ElseIf (Category = SearchCategories.Pegawai) Then
-                Dim SPegawai As New SrcPegawaiEven(Me)
-                Dim FrST As FrCetakSuratTugas = FrParent
-                SPegawai.Searchpegawai(FrST.GetSelectedKodeDivisi)
+                If (FrParent.GetType().Equals(GetType(FrCetakSuratTugas))) Then
+                    Dim SPegawai As New SrcPegawaiEven(Me)
+                    Dim FrST As FrCetakSuratTugas = FrParent
+                    SPegawai.Searchpegawai(FrST.GetSelectedKodeDivisi)
+                ElseIf (FrParent.GetType().Equals(GetType(FrEntriDataPegawai))) Then
+                    Dim SPegawai As New SrcPegawai(Me)
+                    SPegawai.Searchpegawai()
+                End If
             ElseIf (Category = SearchCategories.Surat_Tugas) Then
                 Dim SSuratTugas As New SrcSuratTugas(Me)
                 SSuratTugas.SearchSuratTugas()
+                End If
             End If
-        End If
     End Sub
 
     Private Sub DgvSearch_CellClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.DataGridViewCellEventArgs) Handles DgvSearch.CellClick

@@ -83,25 +83,21 @@
     <Compile Include="Classes\CtrlBeritaAcaraUndanganKegiatan.vb" />
     <Compile Include="Classes\CtrlDivisi.vb" />
     <Compile Include="Classes\CtrlForm.vb" />
-<<<<<<< HEAD
     <Compile Include="Classes\CtrlSuratTugas.vb" />
     <Compile Include="Classes\DatabaseModule.vb" />
     <Compile Include="Classes\Model\Pegawai.vb" />
     <Compile Include="Classes\SrcBAUK.vb" />
     <Compile Include="Classes\SrcPegawaiEven.vb" />
-=======
     <Compile Include="Classes\CtrlGolongan.vb" />
     <Compile Include="Classes\CtrlJabatan.vb" />
     <Compile Include="Classes\CtrlJenis_Pembiayaan.vb" />
     <Compile Include="Classes\CtrlPegawai.vb" />
     <Compile Include="Classes\CtrlPenyelenggara.vb" />
-    <Compile Include="Classes\DatabaseModule.vb" />
     <Compile Include="Classes\SrcDivisi.vb" />
     <Compile Include="Classes\SrcGolongan.vb" />
     <Compile Include="Classes\SrcJabatan.vb" />
     <Compile Include="Classes\SrcJenis_Pembiayaan.vb" />
     <Compile Include="Classes\SrcPegawai.vb" />
->>>>>>> icn_master
     <Compile Include="Classes\SrcPenyelenggara.vb" />
     <Compile Include="Classes\SrcSuratTugas.vb" />
     <Compile Include="Crystal Report\CrSuratDinas1.vb">
